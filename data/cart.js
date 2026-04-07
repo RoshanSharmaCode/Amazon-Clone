@@ -22,7 +22,7 @@ function saveToStorage() {
   localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-export function addTocart (productId) {
+export function addTocart (productId, quantity) {
   let matchingItem;
 
   cart.forEach((cartItem) => {
@@ -32,11 +32,11 @@ export function addTocart (productId) {
   });
 
   if(matchingItem) {
-    matchingItem.quantity += 1;
+    matchingItem.quantity += quantity;
   } else {
     cart.push({
       productId: productId,
-      quantity: 1,
+      quantity: quantity,
       deliveryOptionId: '1'
     });
   }

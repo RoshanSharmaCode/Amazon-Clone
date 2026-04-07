@@ -22,7 +22,7 @@ function Cart(localStorageKey) {
       localStorage.setItem(localStorageKey, JSON.stringify(this.cartItems));
     },
 
-    addTocart (productId) {
+    addTocart (productId, quantity) {
       let matchingItem;
 
       this.cartItems.forEach((cartItem) => {
@@ -32,11 +32,11 @@ function Cart(localStorageKey) {
       });
 
       if(matchingItem) {
-        matchingItem.quantity += 1;
+        matchingItem.quantity += quantity;
       } else {
         this.cartItems.push({
           productId: productId,
-          quantity: 1,
+          quantity: quantity,
           deliveryOptionId: '1'
         });
       }
