@@ -23,15 +23,6 @@ It includes key pages like homepage, checkout, orders, and tracking to simulate 
 
 > ⚠️ Note: If the page does not load properly, use **Live Server** in VS Code.
 
-## 📸 Preview
-(Add screenshots here)
-
-## 🔮 Future Improvements
-- Backend integration  
-- User authentication  
-- Payment gateway  
-- Database support  
-
 ## 💡 Learning
 - DOM manipulation  
 - E-commerce flow  
