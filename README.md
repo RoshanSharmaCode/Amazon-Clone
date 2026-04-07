@@ -19,7 +19,7 @@ It includes key pages like homepage, checkout, orders, and tracking to simulate 
 ## ▶️ How to Run
 1. Clone the repository  
 2. Open the project folder  
-3. Open `index.html` in your browser  
+3. Open `amazon.html` in your browser  
 
 > ⚠️ Note: If the page does not load properly, use **Live Server** in VS Code.
 
