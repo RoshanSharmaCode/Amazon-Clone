@@ -1,4 +1,4 @@
-# 🛒 Amazon Clone
+# 🛒Amazon Storefront
 
 A responsive Amazon clone built using HTML, CSS, and JavaScript.  
 It includes key pages like homepage, checkout, orders, and tracking to simulate a real e-commerce experience.
